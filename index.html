@@ -206,20 +206,24 @@ enhance my skills. Let's create something amazing together!
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        
+<form action="https://api.web3forms.com/submit" method="POST"> 
+
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+
+<input type="hidden" name="apikey" value="f8b4bb66-40af-4ff0-a78f-c37bd0c4ca96">
+                    <input type="text" placeholder="Full Name" name="name" >
+                    <input type="email" placeholder="Email"name="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="number" placeholder="Phone Number"name="number">
+                    <input type="text" placeholder="Subject"name="subject">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
@@ -248,7 +252,7 @@ enhance my skills. Let's create something amazing together!
             </li>
         </ul>
 
-        <p class="copyright">@ Blessings Moyo | All Rights Reserved</p>
+        <p class="copyright">©Blessings Moyo | All Rights Reserved</p>
     </footer>
 
     <script src="script.js"></script>
